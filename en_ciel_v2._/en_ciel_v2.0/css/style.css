@@ -1,0 +1,38 @@
+.submenu {
+	border-left-style:solid;
+	border-left-width:160px;
+		}
+
+.button{
+	padding:0px;
+	margin:0px;
+	cursor:default;
+	color:#ffffff;
+	width:160px;
+	background-color: #1100ff;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 40px;
+
+}
+
+.menu_button:hover{
+   background-color:#FF0000;
+}
+
+.activeMenu{
+
+	background-color:#00FF00;
+}
+
+.menuFocus{
+	background-color:#00FFFF;
+
+	border:10px;
+}
+
+.scratchTest{
+	background-color:#ffff00;
+
+	border:10px;
+}

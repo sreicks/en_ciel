@@ -1,0 +1,1 @@
+function handle(e){switch($("#"+e).attr("data-class")){case"button":switch($("#"+e).attr("data-subclass")){case"menu":resetFocus(e);loadSubMenu(e,$("#"+e).attr("data-level"));break;case"table":alert("loadtable")}break;case"select":break;case"select":}};
